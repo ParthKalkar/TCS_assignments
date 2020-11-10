@@ -1,0 +1,122 @@
+[
+	{
+		"code": "OK",
+		"reason": "Error:\nE2: Some states are disjoint",
+		"id": 0,
+		"_lang": "python3",
+		"_start": 1582919022980,
+		"_end": 1582919023103
+	},
+	{
+		"code": "OK",
+		"reason": "FSA is incomplete\nWarning:\nW1: Accepting state is not defined\nW2: Some states are not reachable from the initial state",
+		"id": 1,
+		"_lang": "python3",
+		"_start": 1582919023123,
+		"_end": 1582919023222
+	},
+	{
+		"code": "OK",
+		"reason": "FSA is incomplete",
+		"id": 2,
+		"_lang": "python3",
+		"_start": 1582919023239,
+		"_end": 1582919023339
+	},
+	{
+		"code": "OK",
+		"reason": "Error:\nE1: A state 'off' is not in the set of states",
+		"id": 3,
+		"_lang": "python3",
+		"_start": 1582919023355,
+		"_end": 1582919023475
+	},
+	{
+		"code": "OK",
+		"reason": "Error:\nE3: A transition '1' is not represented in the alphabet",
+		"id": 4,
+		"_lang": "python3",
+		"_start": 1582919023495,
+		"_end": 1582919023616
+	},
+	{
+		"code": "OK",
+		"reason": "FSA is incomplete",
+		"id": 5,
+		"_lang": "python3",
+		"_start": 1582919023639,
+		"_end": 1582919023738
+	},
+	{
+		"code": "OK",
+		"reason": "FSA is complete\nWarning:\nW1: Accepting state is not defined\nW2: Some states are not reachable from the initial state",
+		"id": 6,
+		"_lang": "python3",
+		"_start": 1582919023759,
+		"_end": 1582919023858
+	},
+	{
+		"code": "OK",
+		"reason": "FSA is complete\nWarning:\nW2: Some states are not reachable from the initial state",
+		"id": 7,
+		"_lang": "python3",
+		"_start": 1582919023879,
+		"_end": 1582919023978
+	},
+	{
+		"code": "OK",
+		"reason": "FSA is incomplete",
+		"id": 8,
+		"_lang": "python3",
+		"_start": 1582919024000,
+		"_end": 1582919024119
+	},
+	{
+		"code": "OK",
+		"reason": "FSA is complete",
+		"id": 9,
+		"_lang": "python3",
+		"_start": 1582919024135,
+		"_end": 1582919024234
+	},
+	{
+		"code": "OK",
+		"reason": "Error:\nE5: Input file is malformed",
+		"id": 10,
+		"_lang": "python3",
+		"_start": 1582919024252,
+		"_end": 1582919024350
+	},
+	{
+		"code": "OK",
+		"reason": "Error:\nE5: Input file is malformed",
+		"id": 11,
+		"_lang": "python3",
+		"_start": 1582919024360,
+		"_end": 1582919024457
+	},
+	{
+		"code": "OK",
+		"reason": "Error:\nE1: A state 'idle' is not in the set of states",
+		"id": 12,
+		"_lang": "python3",
+		"_start": 1582919024479,
+		"_end": 1582919024578
+	},
+	{
+		"code": "OK",
+		"reason": "Error:\nE4: Initial state is not defined",
+		"id": 13,
+		"_lang": "python3",
+		"_start": 1582919024599,
+		"_end": 1582919024698
+	},
+	{
+		"code": "OK",
+		"reason": "Error:\nE5: Input file is malformed",
+		"id": 14,
+		"_lang": "python3",
+		"_start": 1582919024720,
+		"_end": 1582919024818
+	}
+]
