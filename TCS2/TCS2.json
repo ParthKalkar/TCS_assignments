@@ -1,0 +1,122 @@
+[
+	{
+		"code": "OK",
+		"reason": "Error:\nE2: Some states are disjoint",
+		"id": 0,
+		"_lang": "python3",
+		"_start": 1587661373088,
+		"_end": 1587661373110
+	},
+	{
+		"code": "OK",
+		"reason": "((a|eps)(a|eps)*(b)|(b))(({})(a|eps)*(b)|(a|b|eps))*(({})(a|eps)*(b)|(a|b|eps))|((a|eps)(a|eps)*(b)|(b))",
+		"id": 1,
+		"_lang": "python3",
+		"_start": 1587661373113,
+		"_end": 1587661373134
+	},
+	{
+		"code": "OK",
+		"reason": "{}",
+		"id": 2,
+		"_lang": "python3",
+		"_start": 1587661373136,
+		"_end": 1587661373156
+	},
+	{
+		"code": "OK",
+		"reason": "Error:\nE6: FSA is nondeterministic",
+		"id": 3,
+		"_lang": "python3",
+		"_start": 1587661373159,
+		"_end": 1587661373178
+	},
+	{
+		"code": "OK",
+		"reason": "(a|eps)(a|eps)*(a|eps)|(a|eps)",
+		"id": 4,
+		"_lang": "python3",
+		"_start": 1587661373181,
+		"_end": 1587661373200
+	},
+	{
+		"code": "OK",
+		"reason": "(((b|eps)(b|eps)*(a)|(a))((b)(b|eps)*(a)|(eps))*((b)(b|eps)*({})|(a))|((b|eps)(b|eps)*({})|({})))(((b)(b|eps)*(a)|({}))((b)(b|eps)*(a)|(eps))*((b)(b|eps)*({})|(a))|((b)(b|eps)*({})|(a|eps)))*(((b)(b|eps)*(a)|({}))((b)(b|eps)*(a)|(eps))*((b)(b|eps)*({})|(a))|((b)(b|eps)*({})|(a|eps)))|(((b|eps)(b|eps)*(a)|(a))((b)(b|eps)*(a)|(eps))*((b)(b|eps)*({})|(a))|((b|eps)(b|eps)*({})|({})))",
+		"id": 5,
+		"_lang": "python3",
+		"_start": 1587661373202,
+		"_end": 1587661373221
+	},
+	{
+		"code": "OK",
+		"reason": "(((b|eps)(b|eps)*(a)|(a))((b)(b|eps)*(a)|(eps))*((b)(b|eps)*({})|(a))|((b|eps)(b|eps)*({})|({})))(((b)(b|eps)*(a)|({}))((b)(b|eps)*(a)|(eps))*((b)(b|eps)*({})|(a))|((b)(b|eps)*({})|(a|eps)))*(((b)(b|eps)*(a)|({}))((b)(b|eps)*(a)|(eps))*((b)(b|eps)*(b|eps)|(b))|((b)(b|eps)*(b|eps)|(b)))|(((b|eps)(b|eps)*(a)|(a))((b)(b|eps)*(a)|(eps))*((b)(b|eps)*(b|eps)|(b))|((b|eps)(b|eps)*(b|eps)|(b|eps)))|(((b|eps)(b|eps)*(a)|(a))((b)(b|eps)*(a)|(eps))*((b)(b|eps)*({})|(a))|((b|eps)(b|eps)*({})|({})))(((b)(b|eps)*(a)|({}))((b)(b|eps)*(a)|(eps))*((b)(b|eps)*({})|(a))|((b)(b|eps)*({})|(a|eps)))*(((b)(b|eps)*(a)|({}))((b)(b|eps)*(a)|(eps))*((b)(b|eps)*({})|(a))|((b)(b|eps)*({})|(a|eps)))|(((b|eps)(b|eps)*(a)|(a))((b)(b|eps)*(a)|(eps))*((b)(b|eps)*({})|(a))|((b|eps)(b|eps)*({})|({})))",
+		"id": 6,
+		"_lang": "python3",
+		"_start": 1587661373225,
+		"_end": 1587661373245
+	},
+	{
+		"code": "OK",
+		"reason": "(((eps)(eps)*(1)|(1))(({})(eps)*(1)|(0|1|eps))*(({})(eps)*(0)|({}))|((eps)(eps)*(0)|(0)))((({})(eps)*(1)|({}))(({})(eps)*(1)|(0|1|eps))*(({})(eps)*(0)|({}))|(({})(eps)*(0)|(0|1|eps)))*((({})(eps)*(1)|({}))(({})(eps)*(1)|(0|1|eps))*(({})(eps)*(1)|(0|1|eps))|(({})(eps)*(1)|({})))|(((eps)(eps)*(1)|(1))(({})(eps)*(1)|(0|1|eps))*(({})(eps)*(1)|(0|1|eps))|((eps)(eps)*(1)|(1)))",
+		"id": 7,
+		"_lang": "python3",
+		"_start": 1587661373248,
+		"_end": 1587661373268
+	},
+	{
+		"code": "OK",
+		"reason": "(((1|eps)(1|eps)*(0)|(0))((1)(1|eps)*(0)|(eps))*((1)(1|eps)*({})|(0))|((1|eps)(1|eps)*({})|({})))((({})(1|eps)*(0)|({}))((1)(1|eps)*(0)|(eps))*((1)(1|eps)*({})|(0))|(({})(1|eps)*({})|(0|1|eps)))*((({})(1|eps)*(0)|({}))((1)(1|eps)*(0)|(eps))*((1)(1|eps)*(1|eps)|(1))|(({})(1|eps)*(1|eps)|({})))|(((1|eps)(1|eps)*(0)|(0))((1)(1|eps)*(0)|(eps))*((1)(1|eps)*(1|eps)|(1))|((1|eps)(1|eps)*(1|eps)|(1|eps)))",
+		"id": 8,
+		"_lang": "python3",
+		"_start": 1587661373271,
+		"_end": 1587661373290
+	},
+	{
+		"code": "OK",
+		"reason": "((((eps)(eps)*(a)|(a))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|((eps)(eps)*(b)|(b)))(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|((b)(eps)*(b)|(eps)))*(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*({})|(b))|((b)(eps)*({})|(a)))|(((eps)(eps)*(a)|(a))((a)(eps)*(a)|(eps))*((a)(eps)*({})|(b))|((eps)(eps)*({})|({}))))(((({})(eps)*(a)|(b))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|(({})(eps)*(b)|(a)))(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|((b)(eps)*(b)|(eps)))*(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*({})|(b))|((b)(eps)*({})|(a)))|((({})(eps)*(a)|(b))((a)(eps)*(a)|(eps))*((a)(eps)*({})|(b))|(({})(eps)*({})|(eps))))*(((({})(eps)*(a)|(b))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|(({})(eps)*(b)|(a)))(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|((b)(eps)*(b)|(eps)))*(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*(eps)|(a))|((b)(eps)*(eps)|(b)))|((({})(eps)*(a)|(b))((a)(eps)*(a)|(eps))*((a)(eps)*(eps)|(a))|(({})(eps)*(eps)|({}))))|((((eps)(eps)*(a)|(a))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|((eps)(eps)*(b)|(b)))(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|((b)(eps)*(b)|(eps)))*(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*(eps)|(a))|((b)(eps)*(eps)|(b)))|(((eps)(eps)*(a)|(a))((a)(eps)*(a)|(eps))*((a)(eps)*(eps)|(a))|((eps)(eps)*(eps)|(eps))))|((((eps)(eps)*(a)|(a))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|((eps)(eps)*(b)|(b)))(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|((b)(eps)*(b)|(eps)))*(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*({})|(b))|((b)(eps)*({})|(a)))|(((eps)(eps)*(a)|(a))((a)(eps)*(a)|(eps))*((a)(eps)*({})|(b))|((eps)(eps)*({})|({}))))(((({})(eps)*(a)|(b))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|(({})(eps)*(b)|(a)))(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|((b)(eps)*(b)|(eps)))*(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*({})|(b))|((b)(eps)*({})|(a)))|((({})(eps)*(a)|(b))((a)(eps)*(a)|(eps))*((a)(eps)*({})|(b))|(({})(eps)*({})|(eps))))*(((({})(eps)*(a)|(b))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|(({})(eps)*(b)|(a)))(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|((b)(eps)*(b)|(eps)))*(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*({})|(b))|((b)(eps)*({})|(a)))|((({})(eps)*(a)|(b))((a)(eps)*(a)|(eps))*((a)(eps)*({})|(b))|(({})(eps)*({})|(eps))))|((((eps)(eps)*(a)|(a))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|((eps)(eps)*(b)|(b)))(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|((b)(eps)*(b)|(eps)))*(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*({})|(b))|((b)(eps)*({})|(a)))|(((eps)(eps)*(a)|(a))((a)(eps)*(a)|(eps))*((a)(eps)*({})|(b))|((eps)(eps)*({})|({}))))",
+		"id": 9,
+		"_lang": "python3",
+		"_start": 1587661373292,
+		"_end": 1587661373312
+	},
+	{
+		"code": "OK",
+		"reason": "((((eps)(eps)*(a)|(a))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|((eps)(eps)*(b)|(b)))(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|((b)(eps)*(b)|(eps)))*(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*({})|(b))|((b)(eps)*({})|(a)))|(((eps)(eps)*(a)|(a))((a)(eps)*(a)|(eps))*((a)(eps)*({})|(b))|((eps)(eps)*({})|({}))))(((({})(eps)*(a)|(b))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|(({})(eps)*(b)|(a)))(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|((b)(eps)*(b)|(eps)))*(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*({})|(b))|((b)(eps)*({})|(a)))|((({})(eps)*(a)|(b))((a)(eps)*(a)|(eps))*((a)(eps)*({})|(b))|(({})(eps)*({})|(eps))))*(((({})(eps)*(a)|(b))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|(({})(eps)*(b)|(a)))(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|((b)(eps)*(b)|(eps)))*(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*({})|(b))|((b)(eps)*({})|(a)))|((({})(eps)*(a)|(b))((a)(eps)*(a)|(eps))*((a)(eps)*({})|(b))|(({})(eps)*({})|(eps))))|((((eps)(eps)*(a)|(a))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|((eps)(eps)*(b)|(b)))(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|((b)(eps)*(b)|(eps)))*(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*({})|(b))|((b)(eps)*({})|(a)))|(((eps)(eps)*(a)|(a))((a)(eps)*(a)|(eps))*((a)(eps)*({})|(b))|((eps)(eps)*({})|({}))))",
+		"id": 10,
+		"_lang": "python3",
+		"_start": 1587661373314,
+		"_end": 1587661373333
+	},
+	{
+		"code": "OK",
+		"reason": "(((b|eps)(b|eps)*(a)|(a))((b)(b|eps)*(a)|(eps))*((b)(b|eps)*({})|(a))|((b|eps)(b|eps)*({})|({})))(((b)(b|eps)*(a)|({}))((b)(b|eps)*(a)|(eps))*((b)(b|eps)*({})|(a))|((b)(b|eps)*({})|(a|eps)))*(((b)(b|eps)*(a)|({}))((b)(b|eps)*(a)|(eps))*((b)(b|eps)*(b|eps)|(b))|((b)(b|eps)*(b|eps)|(b)))|(((b|eps)(b|eps)*(a)|(a))((b)(b|eps)*(a)|(eps))*((b)(b|eps)*(b|eps)|(b))|((b|eps)(b|eps)*(b|eps)|(b|eps)))",
+		"id": 11,
+		"_lang": "python3",
+		"_start": 1587661373336,
+		"_end": 1587661373354
+	},
+	{
+		"code": "OK",
+		"reason": "(a_a|eps)(a_a|eps)*(a_a|eps)|(a_a|eps)",
+		"id": 12,
+		"_lang": "python3",
+		"_start": 1587661373357,
+		"_end": 1587661373375
+	},
+	{
+		"code": "OK",
+		"reason": "((((eps)(eps)*(a)|(a))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|((eps)(eps)*(b)|(b)))(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|((b)(eps)*(b)|(eps)))*(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*({})|(b))|((b)(eps)*({})|(a)))|(((eps)(eps)*(a)|(a))((a)(eps)*(a)|(eps))*((a)(eps)*({})|(b))|((eps)(eps)*({})|({}))))(((({})(eps)*(a)|(b))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|(({})(eps)*(b)|(a)))(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|((b)(eps)*(b)|(eps)))*(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*({})|(b))|((b)(eps)*({})|(a)))|((({})(eps)*(a)|(b))((a)(eps)*(a)|(eps))*((a)(eps)*({})|(b))|(({})(eps)*({})|(eps))))*(((({})(eps)*(a)|(b))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|(({})(eps)*(b)|(a)))(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|((b)(eps)*(b)|(eps)))*(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|((b)(eps)*(b)|(eps)))|((({})(eps)*(a)|(b))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|(({})(eps)*(b)|(a))))|((((eps)(eps)*(a)|(a))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|((eps)(eps)*(b)|(b)))(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|((b)(eps)*(b)|(eps)))*(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|((b)(eps)*(b)|(eps)))|(((eps)(eps)*(a)|(a))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|((eps)(eps)*(b)|(b))))",
+		"id": 13,
+		"_lang": "python3",
+		"_start": 1587661373377,
+		"_end": 1587661373397
+	},
+	{
+		"code": "OK",
+		"reason": "((((eps)(eps)*(a)|(a))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|((eps)(eps)*(b)|(b)))(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|((b)(eps)*(b)|(eps)))*(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*({})|(b))|((b)(eps)*({})|(a)))|(((eps)(eps)*(a)|(a))((a)(eps)*(a)|(eps))*((a)(eps)*({})|(b))|((eps)(eps)*({})|({}))))(((({})(eps)*(a)|(b))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|(({})(eps)*(b)|(a)))(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|((b)(eps)*(b)|(eps)))*(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*({})|(b))|((b)(eps)*({})|(a)))|((({})(eps)*(a)|(b))((a)(eps)*(a)|(eps))*((a)(eps)*({})|(b))|(({})(eps)*({})|(eps))))*(((({})(eps)*(a)|(b))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|(({})(eps)*(b)|(a)))(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|((b)(eps)*(b)|(eps)))*(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*(a)|(eps))|((b)(eps)*(a)|({})))|((({})(eps)*(a)|(b))((a)(eps)*(a)|(eps))*((a)(eps)*(a)|(eps))|(({})(eps)*(a)|(b))))|((((eps)(eps)*(a)|(a))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|((eps)(eps)*(b)|(b)))(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*(b)|({}))|((b)(eps)*(b)|(eps)))*(((b)(eps)*(a)|({}))((a)(eps)*(a)|(eps))*((a)(eps)*(a)|(eps))|((b)(eps)*(a)|({})))|(((eps)(eps)*(a)|(a))((a)(eps)*(a)|(eps))*((a)(eps)*(a)|(eps))|((eps)(eps)*(a)|(a))))",
+		"id": 14,
+		"_lang": "python3",
+		"_start": 1587661373399,
+		"_end": 1587661373418
+	}
+]
